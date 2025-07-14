@@ -10,6 +10,7 @@ body {
 
 a{
     text-decoration: none;
+    color: rgb(163, 101, 19);
 }
 
 .header-box{
@@ -26,18 +27,18 @@ ul{
     padding: 0;
     margin: 0;
     list-style: none;
-    gap: 14px;
 }
 
 .links{
     display: flex;
-    gap: 14px;
+    gap: 50px;
 }
 
 .header-content{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: white
 }
 
 .content{
@@ -53,4 +54,13 @@ ul{
 
 .thing{
     padding-right: 40px;
+}
+
+button{
+    background-color: rgb(163, 101, 19);
+    border: 0px;
+    border-radius: 3px;
+    color: aliceblue;
+    width: 120px;
+    height: 50px;
 }
