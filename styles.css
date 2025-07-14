@@ -4,25 +4,22 @@ body {
   min-height: 100vh;
 }
 
+.logo img{
+    width: 100px;
+}
+
 a{
     text-decoration: none;
 }
 
-img{
-    width: 100px;
-    height: 100px;
-}
-
 .header-box{
-    display: flex;
     background: orange;
-
 }
 
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 ul{
@@ -32,11 +29,28 @@ ul{
     gap: 14px;
 }
 
-.header-content{
-    
-
+.links{
+    display: flex;
+    gap: 14px;
 }
 
-.links{
-    flex: 1;
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content{
+    max-width: 300px;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.thing img{
+    border-radius: 8px;
+}
+
+.thing{
+    padding-right: 40px;
 }
