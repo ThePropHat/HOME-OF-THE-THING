@@ -2,21 +2,41 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
 }
 
 .header-box{
     display: flex;
     background: orange;
-    height: 72px;
+
 }
 
 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 14px;
 }
 
 .header-content{
     
 
+}
+
+.links{
+    flex: 1;
 }
