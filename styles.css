@@ -65,7 +65,7 @@ ul{
 
 button{
     background-color: rgb(163, 101, 19);
-    border: 0px;
+    border: solid;
     border-radius: 15px;
     color: aliceblue;
     width: 220px;
@@ -135,3 +135,22 @@ button{
     padding-left: 300px;
 }
 
+.cta-container{
+    display: flex;
+    color: white;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(179, 112, 37);
+    border-radius: 20px;
+    padding: 40px;
+    width: 900px;
+    flex-wrap: wrap;
+    
+}
