@@ -1,7 +1,11 @@
+
+@import url(https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap);
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  
 }
 
 .logo img{
@@ -11,10 +15,17 @@ body {
 a{
     text-decoration: none;
     color: rgb(163, 101, 19);
+    
+    
+}
+
+h1{
+    font-family: "Walter Turncoat";
 }
 
 .header-box{
     background: orange;
+    
 }
 
 .header{
@@ -22,6 +33,7 @@ a{
     align-items: center;
     justify-content: space-around;
     margin-bottom: -100px;
+    
 }
 
 ul{
@@ -41,6 +53,7 @@ ul{
     justify-content: space-around;
     color: white;
     padding: 80px;
+    
 }
 
 .content{
@@ -48,6 +61,7 @@ ul{
     padding: 30px;
     margin-bottom: 30px;
     margin-left: 100px;
+    
 }
 
 .thing img{
@@ -66,10 +80,13 @@ button{
     color: aliceblue;
     width: 220px;
     height: 50px;
+    font-family: "Walter Turncoat";
+    font-weight: 1000;
+    font-size: 20px;
 }
 
 .title {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: 900;
   display: flex;
   justify-content: center;
